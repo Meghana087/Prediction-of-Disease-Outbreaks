@@ -255,9 +255,9 @@ if selected=='Parkinsons Prediction':
         parkinsons_prediction=parkinsons_disease_model.predict([user_input])
 
         if parkinsons_prediction[0]==1:
-            parkinsons_diagnosis='The Person is having Heart Disease'
+            parkinsons_diagnosis='The Person is having Parkinsons Disease'
         else:
-            parkinsons_diagnosis='The Person does not have any Heart Disease'
+            parkinsons_diagnosis='The Person does not have any Parkinsons Disease'
 
     st.success(parkinsons_diagnosis)    
 
